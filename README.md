@@ -1,6 +1,6 @@
 # Phase 3 Code Challenge: Articles - without SQLAlchemy (Updated)
 
-In this code challenge, you will be working with a Magazine domain.
+For this assignment, you will be working with a Magazine domain.
 
 We have three models: `Author`, `Article`, and `Magazine`.
 
@@ -11,6 +11,14 @@ For our purposes, an `Author` has many `Article`s, a `Magazine` has many
 
 **Note**: You should draw your domain on paper or on a whiteboard _before you
 start coding_. Remember to identify a single source of truth for your data.
+
+## Topics
+
+- Classes and Instances
+- Class and Instance Methods
+- Variable Scope
+- Object Relationships
+- lists and list Methods
 
 ## Instructions
 
@@ -43,7 +51,7 @@ extract it into a shared helper method.
 expect. If you have any methods that are not working yet, feel free to leave
 comments describing your progress.
 
-## Core Deliverables
+## Deliverables
 
 Write the following methods in the classes in the files provided. Feel free to
 build out any helper methods if needed.
@@ -145,13 +153,7 @@ build out any helper methods if needed.
   - Authors must be of type `Author`
   - Returns `None` if the magazine has no authors with more than 2 publications
 
-### Advanced Deliverables
-
-These deliverables are not required to pass the code challenge, but if you have
-the extra time, or even after the code challenge, they are a great way to
-stretch your skills.
-
-#### Bonus: Aggregate and Association Method
+### Bonus: Aggregate and Association Method
 
 - `Magazine classmethod top_publisher()`
   - Returns the `Magazine` instance with the most articles
@@ -159,7 +161,7 @@ stretch your skills.
   - Uncomment lines 206-224 in the magazine_test file
   - _hint: will need a way to remember all magazine objects_
 
-#### Bonus: For any invalid inputs raise an `Exception`
+### Bonus: For any invalid inputs raise an `Exception`.
 
 - First, **comment out** the following lines
   - **article_test.py**
